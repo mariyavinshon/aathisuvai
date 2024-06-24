@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes image {
+    0% {
+      background-image: url('/bg-image-0.png');
+    }
+    25% {
+      background-image: url('/bg-image-1.png');
+    }
+    50% {
+      background-image: url('/bg-image-2.png');
+    }
+    75% {
+      background-image: url('/bg-image-0.png');
+    }
+    90% {
+      background-image: url('/bg-image-1.png');
+    }
+    100% {
+      background-image: url('/bg-image-2.png');
+    }
+    
+  }
